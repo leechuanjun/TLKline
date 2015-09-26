@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EDB20A11BB554A300DA3F78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB20A01BB554A300DA3F78 /* main.m */; };
+		7EDB20A41BB554A300DA3F78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB20A31BB554A300DA3F78 /* AppDelegate.m */; };
+		7EDB20A71BB554A300DA3F78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB20A61BB554A300DA3F78 /* ViewController.m */; };
+		7EDB20AA1BB554A300DA3F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB20A81BB554A300DA3F78 /* Main.storyboard */; };
+		7EDB20AC1BB554A300DA3F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB20AB1BB554A300DA3F78 /* Assets.xcassets */; };
+		7EDB20AF1BB554A300DA3F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB20AD1BB554A300DA3F78 /* LaunchScreen.storyboard */; };
+		910E828E055751BEAF66226D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0509B76EE4C4B94DA6711B1E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0509B76EE4C4B94DA6711B1E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		242D94548984AC67CF3B46AF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7EDB209C1BB554A300DA3F78 /* TLKline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLKline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDB20A01BB554A300DA3F78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EDB20A21BB554A300DA3F78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EDB20A31BB554A300DA3F78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EDB20A51BB554A300DA3F78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EDB20A61BB554A300DA3F78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EDB20A91BB554A300DA3F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EDB20AB1BB554A300DA3F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EDB20AE1BB554A300DA3F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EDB20B01BB554A300DA3F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86D2494CD2042B72EC7DC002 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EDB20991BB554A300DA3F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910E828E055751BEAF66226D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		765390714CCCD691A834F3DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				242D94548984AC67CF3B46AF /* Pods.debug.xcconfig */,
+				86D2494CD2042B72EC7DC002 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7EDB20931BB554A300DA3F78 = {
+			isa = PBXGroup;
+			children = (
+				7EDB209E1BB554A300DA3F78 /* TLKline */,
+				7EDB209D1BB554A300DA3F78 /* Products */,
+				765390714CCCD691A834F3DA /* Pods */,
+				BBA411E733D7A3F84CE83551 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EDB209D1BB554A300DA3F78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EDB209C1BB554A300DA3F78 /* TLKline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EDB209E1BB554A300DA3F78 /* TLKline */ = {
+			isa = PBXGroup;
+			children = (
+				7EDB20A21BB554A300DA3F78 /* AppDelegate.h */,
+				7EDB20A31BB554A300DA3F78 /* AppDelegate.m */,
+				7EDB20A51BB554A300DA3F78 /* ViewController.h */,
+				7EDB20A61BB554A300DA3F78 /* ViewController.m */,
+				7EDB20A81BB554A300DA3F78 /* Main.storyboard */,
+				7EDB20AB1BB554A300DA3F78 /* Assets.xcassets */,
+				7EDB20AD1BB554A300DA3F78 /* LaunchScreen.storyboard */,
+				7EDB20B01BB554A300DA3F78 /* Info.plist */,
+				7EDB209F1BB554A300DA3F78 /* Supporting Files */,
+			);
+			path = TLKline;
+			sourceTree = "<group>";
+		};
+		7EDB209F1BB554A300DA3F78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EDB20A01BB554A300DA3F78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBA411E733D7A3F84CE83551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0509B76EE4C4B94DA6711B1E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EDB209B1BB554A300DA3F78 /* TLKline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDB20B31BB554A300DA3F78 /* Build configuration list for PBXNativeTarget "TLKline" */;
+			buildPhases = (
+				85D36765791C20E4FFE16AAF /* Check Pods Manifest.lock */,
+				7EDB20981BB554A300DA3F78 /* Sources */,
+				7EDB20991BB554A300DA3F78 /* Frameworks */,
+				7EDB209A1BB554A300DA3F78 /* Resources */,
+				EEC7A2C75BEC3B55CF6AFA5A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLKline;
+			productName = TLKline;
+			productReference = 7EDB209C1BB554A300DA3F78 /* TLKline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EDB20941BB554A300DA3F78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = lichuanjun;
+				TargetAttributes = {
+					7EDB209B1BB554A300DA3F78 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 7EDB20971BB554A300DA3F78 /* Build configuration list for PBXProject "TLKline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EDB20931BB554A300DA3F78;
+			productRefGroup = 7EDB209D1BB554A300DA3F78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EDB209B1BB554A300DA3F78 /* TLKline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EDB209A1BB554A300DA3F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDB20AF1BB554A300DA3F78 /* LaunchScreen.storyboard in Resources */,
+				7EDB20AC1BB554A300DA3F78 /* Assets.xcassets in Resources */,
+				7EDB20AA1BB554A300DA3F78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85D36765791C20E4FFE16AAF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEC7A2C75BEC3B55CF6AFA5A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EDB20981BB554A300DA3F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDB20A71BB554A300DA3F78 /* ViewController.m in Sources */,
+				7EDB20A41BB554A300DA3F78 /* AppDelegate.m in Sources */,
+				7EDB20A11BB554A300DA3F78 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EDB20A81BB554A300DA3F78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EDB20A91BB554A300DA3F78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EDB20AD1BB554A300DA3F78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EDB20AE1BB554A300DA3F78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EDB20B11BB554A300DA3F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EDB20B21BB554A300DA3F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EDB20B41BB554A300DA3F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242D94548984AC67CF3B46AF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLKline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niwodai.www.TLKline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EDB20B51BB554A300DA3F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D2494CD2042B72EC7DC002 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLKline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niwodai.www.TLKline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EDB20971BB554A300DA3F78 /* Build configuration list for PBXProject "TLKline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDB20B11BB554A300DA3F78 /* Debug */,
+				7EDB20B21BB554A300DA3F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EDB20B31BB554A300DA3F78 /* Build configuration list for PBXNativeTarget "TLKline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDB20B41BB554A300DA3F78 /* Debug */,
+				7EDB20B51BB554A300DA3F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EDB20941BB554A300DA3F78 /* Project object */;
+}

@@ -1,0 +1,42 @@
+//
+//  TLKline-PrefixHeader.pch
+//  TLKline
+//
+//  Created by lichuanjun on 15/9/26.
+//  Copyright © 2015年 lichuanjun. All rights reserved.
+//
+
+#ifndef TLKline_PrefixHeader_pch
+#define TLKline_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <objc/runtime.h>
+
+#import <Mantle/Mantle.h>
+#import <Masonry/Masonry.h>
+#import <UIImageView+AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/AFNetworkReachabilityManager.h>
+#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
+#import <ASIHTTPRequest/ASIHTTPRequest.h>
+
+#endif /* __OBJC__ */
+
+#define SCREEN_WIDTH        [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT       [[UIScreen mainScreen] bounds].size.height
+#define SCREEN_SCALE        [[UIScreen mainScreen] scale]
+
+//
+// 很有用的宏定义
+// 比如 @weakify 和 @strongify
+//
+#import <Mantle/EXTScope.h>
+#import <Mantle/EXTKeyPathCoding.h>
+
+#endif /* TLKline_PrefixHeader_pch */
